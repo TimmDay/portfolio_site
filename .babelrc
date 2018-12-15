@@ -1,0 +1,13 @@
+{
+  "presets": [
+    "env",
+    "react"
+  ],
+  "plugins": [
+    "transform-class-properties",
+    "transform-object-rest-spread"
+  ]
+}
+
+//todo try upgrading babel to v7, reintroducing firebase new version
+//todo any auth clash? it is with the env preset that the problem was
